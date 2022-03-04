@@ -3,11 +3,11 @@
 <?php
 
 /* Sélection de toutes les lignes */
-$resultQueryTask = $mysqli->query("SELECT * FROM task ORDER BY id ASC");
+$resultQuery = $mysqli->query("SELECT * FROM task ORDER BY id ASC");
 
 // printf("Nombre de lignes affectées (SELECT): %d\n", $mysqli->affected_rows);
-
 ?>
+
 <ul class="list-group">
 
     <?php
